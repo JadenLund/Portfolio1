@@ -7,7 +7,7 @@ import logo3 from '../../assets/images/logo3.png'
 import logo4 from '../../assets/images/logo4.png'
 import logo5 from '../../assets/images/logo5.png'
 import logo6 from '../../assets/images/logo6.png'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+// import { CometSpinLoader } from 'react-css-loaders';
 
 export default function About() {
     const [letterClass, setLetterClass] = useState('text-animate');
@@ -36,13 +36,14 @@ export default function About() {
             </div>
             <div className='stage-cube-cont'>
                 <div className='cubespinner'>
-                    <img className='logo1' src={logo1} />
-                    <img className='logo2' src={logo2} />
-                    <img className='logo3' src={logo3} />
-                    <img className='logo4' src={logo4} />
-                    <img className='logo5' src={logo5} />
-                    <img className='logo6' src={logo6} />
+                    <img className='logo1' src={logo1} alt='logo1' />
+                    <img className='logo2' src={logo2} alt='logo2' />
+                    <img className='logo3' src={logo3} alt='logo3' />
+                    <img className='logo4' src={logo4} alt='logo4' />
+                    <img className='logo5' src={logo5} alt='logo5' />
+                    <img className='logo6' src={logo6} alt='logo6' />
                 </div>
+                {/* <CometSpinLoader /> */}
             </div>
         </div>
     )
