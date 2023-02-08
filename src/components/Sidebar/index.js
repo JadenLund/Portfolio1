@@ -23,10 +23,10 @@ export const Sidebar = () => {
                 <NavLink exact='true' activeclassname='active' className='contact-link' to='/contact'>
                     <FontAwesomeIcon icon={faPhone} color='#4d4d4de' />
                 </NavLink>
-                <NavLink exact='true' activeclassname='active' className='resume-link' to='/resume'>
-                    <FontAwesomeIcon icon={faNewspaper} color='#4d4d4de' />
-                </NavLink>
                 <div className='links'>
+                    <a target='_blank' className='resume' rel='noreferrer' href='https://docs.google.com/document/d/e/2PACX-1vQ8IWlnrFXAny90vVemPIf9Oj8-iuwY-oeJIeeIWvaTBXi_Y1iWGk_T_YEI_5u-6STodHn2FHO_yXtq/pub'>
+                        <FontAwesomeIcon icon={faNewspaper} color='#99738e' />
+                    </a>
                     <a target='_blank' className='linkedin' rel='noreferrer' href='https://www.linkedin.com/in/jaden-lund/'>
                         <FontAwesomeIcon icon={faLinkedin} color='#99738e' />
                     </a>

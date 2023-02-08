@@ -1,5 +1,5 @@
 .nav-bar {
-  background: #242582;
+  background: #342c87;
   width: 60px;
   height: 100%;
   position: absolute;
@@ -34,7 +34,7 @@
 
     a {
       font-size: 22px;
-      color: #99738e;
+      color: #b098df;
       display: block;
       line-height: 51px;
       height: 51px;
@@ -93,13 +93,8 @@
         content: 'CONTACT';
       }
     }
-    a.resume-link {
-      &:after {
-        content: 'RESUME';
-      }
-    }
+
     a.linkedin {
-      margin-top: 30px;
       &:after {
         content: 'LINKEDIN';
       }
@@ -109,9 +104,15 @@
         content: 'GITHUB';
       }
     }
+    a.resume {
+      margin-top: 30px;
+      &:after {
+        content: 'RESUME';
+      }
+    }
     a.active {
       svg {
-        color: #f64c72;
+        color: #eba4e0;
       }
     }
   }
