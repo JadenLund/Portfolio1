@@ -62,27 +62,33 @@
 
       &:before {
         content: '<h1>';
-        font-family: 'La Belle Aurore';
-        color: #ffd700;
+        font-family: 'Gill Sans';
+        color: #3e1c6f;
         font-size: 18px;
         position: absolute;
         margin-top: -10px;
-        left: -10px;
+        left: -30px;
         opacity: 0.6;
         line-height: 18px;
+        font-style: italic;
+        font-weight: bold;
       }
 
       &:after {
         content: '<h1/>';
-        font-family: 'La Belle Aurore';
-        color: #ffd700;
         font-size: 18px;
         line-height: 18px;
-        position: absolute;
         left: -30px;
         bottom: -20px;
-        margin-left: 20px;
+        margin-left: 325px;
         opacity: 0.6;
+        font-family: 'Gill Sans';
+        color: #3e1c6f;
+        font-weight: bold;
+        position: absolute;
+        margin-top: 18px;
+        font-style: italic;
+        animation: fadeIn 1s 1.7s backwards;
       }
     }
     p {

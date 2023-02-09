@@ -1,6 +1,7 @@
 import AnimatedLetters from '../AnimatedLetters';
 import './index.scss'
 import { useState, useEffect } from 'react';
+import ParticleEffect from '../ParticleEffects';
 
 const Contact = () => {
     const contactArray = 'CONTACT ME'.split('');
@@ -42,6 +43,7 @@ const Contact = () => {
                                 <li>
                                     <input type="submit" className="flat-button" value="SEND" />
                                 </li>
+                                <ParticleEffect />
                             </ul>
                         </form>
 
