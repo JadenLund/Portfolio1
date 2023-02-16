@@ -1,6 +1,6 @@
 import AnimatedLetters from '../AnimatedLetters';
 import './index.scss'
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import ParticleEffect from '../ParticleEffects';
 import emailjs from '@emailjs/browser'
 
@@ -38,7 +38,7 @@ const Contact = () => {
 
     return (
         <>
-            <div className='container contact-page'>
+            <div className='contact-page'>
                 <div className='text-zone'>
                     <h1>
                         <AnimatedLetters letterClass={letterClass} strArray={contactArray} idx={15} />
