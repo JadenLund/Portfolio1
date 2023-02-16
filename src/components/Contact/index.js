@@ -2,10 +2,12 @@ import AnimatedLetters from '../AnimatedLetters';
 import './index.scss'
 import { useState, useEffect } from 'react';
 import ParticleEffect from '../ParticleEffects';
+import emailjs from '@emailjs/browser'
 
 const Contact = () => {
     const contactArray = 'CONTACT ME'.split('');
     const [letterClass, setLetterClass] = useState('text-animate');
+    const refForm = useRef();
 
     useEffect(() => {
         const ourSetTimeout = setTimeout(() => {
@@ -13,6 +15,26 @@ const Contact = () => {
         }, 3000)
         return () => clearTimeout(ourSetTimeout)
     }, [])
+
+    const sendEmail = (e) => {
+        e.preventDefault()
+
+        emailjs
+            .sendForm(
+                'gmail',
+                'template_w6notlp',
+                refForm.current,
+                'oBZpW8_gp7gNZ5jBF'
+            )
+            .then(
+                () => {
+                    alert('Message Sent!')
+                },
+                () => {
+                    alert("Failed to send messag.")
+                }
+            )
+    }
 
     return (
         <>
@@ -48,6 +70,7 @@ const Contact = () => {
                         </form>
 
                     </div>
+                    <form ref={refForm} onSubmit={sendEmail} />
                 </div>
             </div>
         </>
