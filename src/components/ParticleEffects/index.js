@@ -6,18 +6,13 @@ export default function ParticleEffect() {
     }
 
     const genCircles = generateRange(100);
-    let x = genCircles.next()
 
-    while (!x.done) {
-        console.log(x.value)
-        x = genCircles.next();
-    }
     console.log(genCircles)
+
     return (
         <div className='circle-container'>
             <div className='circle'>
-                { }
-            </div>
-        </div>
+                {new Array(100).fill(4).map((x, index) => { return <div key={`circle-${index}`} className='circle'> </div> })}
+            </div></div>
     )
 }
