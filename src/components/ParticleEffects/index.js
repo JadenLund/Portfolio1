@@ -11,8 +11,8 @@ export default function ParticleEffect() {
 
     return (
         <div className='circle-container'>
-            <div className='circle'>
-                {new Array(100).fill(4).map((x, index) => { return <div key={`circle-${index}`} className='circle'> </div> })}
-            </div></div>
+
+            {new Array(100).fill(4).map((x, index) => { return <div key={`circle-${index}`} className='circle'> </div> })}
+        </div>
     )
 }
