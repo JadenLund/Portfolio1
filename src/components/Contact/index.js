@@ -31,7 +31,7 @@ const Contact = () => {
                     alert('Message Sent!')
                 },
                 () => {
-                    alert("Failed to send messag.")
+                    alert("Failed to send message.")
                 }
             )
     }
@@ -47,7 +47,7 @@ const Contact = () => {
                         I am a software developer with a broad range of technical skills, including proficiency in React JS, Ruby on Rails, HTML, CSS and experience working with APIs. My passion for coding and problem-solving drive me to constantly improve my skills and stay up to date with the latest technology trends. If you would like to contact me, please use the form below.
                     </p>
                     <div className='contact-form'>
-                        <form>
+                        <form ref={refForm} onSubmit={sendEmail} >
                             <ul>
                                 <li className="half">
                                     <input placeholder="Name" type="text" name="name" required />
@@ -70,7 +70,7 @@ const Contact = () => {
                         </form>
 
                     </div>
-                    <form ref={refForm} onSubmit={sendEmail} />
+                    <form />
                 </div>
             </div>
         </>
