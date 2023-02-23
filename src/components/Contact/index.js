@@ -1,7 +1,6 @@
 import AnimatedLetters from '../AnimatedLetters';
 import './index.scss'
 import { useState, useEffect, useRef } from 'react';
-import ParticleEffect from '../ParticleEffects';
 import emailjs from '@emailjs/browser'
 import ParticleJS from '../ParticleJS';
 
@@ -39,6 +38,9 @@ const Contact = () => {
 
     return (
         <>
+            <div>
+                <ParticleJS />
+            </div>
             <div className='contact-page'>
                 <div className='text-zone'>
                     <h1>
@@ -66,7 +68,7 @@ const Contact = () => {
                                 <li>
                                     <input type="submit" className="flat-button" value="SEND" />
                                 </li>
-                                <ParticleJS />
+
                             </ul>
                         </form>
 
