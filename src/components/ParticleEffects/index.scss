@@ -71,6 +71,7 @@ body {
     }
 
     @keyframes scale-frames {
+      //THIS IS WHERE THE ISSUE IS WITH THE LOCATION SHITTTT
       0% {
         transform: scale3d(0.4, 0.4, 1);
       }

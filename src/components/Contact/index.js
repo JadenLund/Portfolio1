@@ -3,6 +3,7 @@ import './index.scss'
 import { useState, useEffect, useRef } from 'react';
 import ParticleEffect from '../ParticleEffects';
 import emailjs from '@emailjs/browser'
+import ParticleJS from '../ParticleJS';
 
 const Contact = () => {
     const contactArray = 'CONTACT ME'.split('');
@@ -21,7 +22,7 @@ const Contact = () => {
 
         emailjs
             .sendForm(
-                'gmail',
+                'service_8huif3k',
                 'template_w6notlp',
                 refForm.current,
                 'oBZpW8_gp7gNZ5jBF'
@@ -65,7 +66,7 @@ const Contact = () => {
                                 <li>
                                     <input type="submit" className="flat-button" value="SEND" />
                                 </li>
-                                <ParticleEffect />
+                                <ParticleJS />
                             </ul>
                         </form>
 
