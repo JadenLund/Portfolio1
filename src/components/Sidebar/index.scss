@@ -93,6 +93,11 @@
         content: 'CONTACT';
       }
     }
+    a.particles-link {
+      &:after {
+        content: 'PARTICLES';
+      }
+    }
 
     a.linkedin {
       &:after {

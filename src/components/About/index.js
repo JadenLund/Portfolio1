@@ -7,7 +7,6 @@ import logo3 from '../../assets/images/logo3.png'
 import logo4 from '../../assets/images/logo4.png'
 import logo5 from '../../assets/images/logo5.png'
 import logo6 from '../../assets/images/logo6.png'
-import Particles from 'react-particles';
 // import { CometSpinLoader } from 'react-css-loaders';
 
 export default function About() {
