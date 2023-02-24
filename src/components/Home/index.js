@@ -6,6 +6,7 @@ import { useState, useEffect } from 'react';
 import Logo from './Logo';
 import ParticleJS from '../ParticleJS';
 
+
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
     const nameArray = 'aden,'.split('');

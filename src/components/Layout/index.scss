@@ -118,15 +118,16 @@
       transform: scale(1.1);
       opacity: 1;
     }
+    .contact-me-bio {
+      //needs to fade in
+      padding-bottom: 5%;
+      transition: all 0.2s ease-in-out;
+    }
   }
 
   .text-animate-hover {
     &:hover {
       color: #a084dc;
     }
-  }
-
-  .contact-me-bio {
-    padding-bottom: 5%;
   }
 }
