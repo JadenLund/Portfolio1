@@ -38,9 +38,7 @@ const Contact = () => {
 
     return (
         <>
-            <div>
-                <ParticleJS />
-            </div>
+            <ParticleJS />
             <div className='contact-page'>
                 <div className='text-zone'>
                     <h1>

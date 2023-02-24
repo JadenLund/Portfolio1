@@ -4,6 +4,7 @@ import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
 import { useState, useEffect } from 'react';
 import Logo from './Logo';
+import ParticleJS from '../ParticleJS';
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
@@ -25,6 +26,7 @@ const Home = () => {
 
     return (
         <>
+            <ParticleJS />
             <div className='container home-page'>
                 <div className='text-zone'>
                     <h1>
