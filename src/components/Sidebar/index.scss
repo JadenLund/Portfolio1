@@ -104,8 +104,13 @@
         content: 'GITHUB';
       }
     }
+    a.medium {
+      &:after {
+        content: 'MEDIUM';
+      }
+    }
     a.resume {
-      margin-top: 30px;
+      margin-top: 40px;
       &:after {
         content: 'RESUME';
       }

@@ -38,22 +38,22 @@
   }
 
   .logo1 {
-    transform: translateZ(100px);
+    transform: translateZ(99.9px);
   }
   .logo2 {
-    transform: rotateY(90deg) translateZ(100px);
+    transform: rotateY(89.9deg) translateZ(99.9px);
   }
   .logo3 {
-    transform: rotateY(90deg) rotateX(90deg) translateZ(100px);
+    transform: rotateY(89.9deg) rotateX(89.9deg) translateZ(99.9px);
   }
   .logo4 {
-    transform: rotateY(180deg) rotateZ(90deg) translateZ(100px);
+    transform: rotateY(179.9deg) rotateZ(89.9deg) translateZ(99.9px);
   }
   .logo5 {
-    transform: rotateY(-90deg) rotateZ(90deg) translateZ(100px);
+    transform: rotateY(-89.9deg) rotateZ(89.9deg) translateZ(99.9px);
   }
   .logo6 {
-    transform: rotateX(-90deg) translateZ(100px);
+    transform: rotateX(-89.9deg) translateZ(99.9px);
   }
 }
 

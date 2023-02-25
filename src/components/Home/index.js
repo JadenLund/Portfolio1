@@ -4,6 +4,8 @@ import './index.scss';
 import AnimatedLetters from '../AnimatedLetters';
 import { useState, useEffect } from 'react';
 import Logo from './Logo';
+import ParticleJS from '../ParticleJS';
+
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
@@ -25,6 +27,7 @@ const Home = () => {
 
     return (
         <>
+            <ParticleJS />
             <div className='container home-page'>
                 <div className='text-zone'>
                     <h1>
@@ -39,7 +42,7 @@ const Home = () => {
                         <AnimatedLetters letterClass={letterClass} strArray={jobArray} idx={22} />
                         <br />
                     </h1>
-                    <h2>Fullstack Developer</h2>
+                    <h2>Fullstack Developer | JavaScript | Ruby on Rails</h2>
                     <Link to='/contact' className='flat-button'>CONTACT ME</Link>
                     <Logo />
                 </div>

@@ -1,11 +1,14 @@
+import Particle from 'particle.js';
 import { Outlet } from 'react-router-dom';
 import { Sidebar } from '../Sidebar'
 import './index.scss'
+import Particles from 'react-particles';
 
 const Layout = () => {
     return (
         <div className='App'>
             <Sidebar />
+
             <div className='page'>
                 <span className='tags top-tags'>&lt;body&gt;</span>
 
