@@ -119,9 +119,11 @@
       opacity: 1;
     }
     .contact-me-bio {
+      animation-delay: 1.1s;
+
       //needs to fade in
       padding-bottom: 5%;
-      transition: all 0.2s ease-in-out;
+      animation: fadeIn;
     }
   }
 

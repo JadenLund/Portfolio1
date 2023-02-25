@@ -77,8 +77,14 @@
     }
   }
 }
-.profile_picture {
-  width: 20%;
-  height: 20%;
-  align-items: right;
+.profile-picture-cont {
+  position: absolute;
+  width: 60%;
+  height: 100%;
+  top: 5%;
+  position: absolute;
+  right: -15%;
+}
+.profile-picture {
+  width: 60%;
 }
