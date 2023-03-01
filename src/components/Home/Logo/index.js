@@ -41,7 +41,7 @@ const Logo = () => {
 	return (
 		<div className='logo-container' ref={bgRef}>
 			<img ref={solidLogoRef} className='solid-logo' src={LogoJ} alt='J' />
-			<svg version="1.1"
+			{/* <svg version="1.1"
 				width="100%" viewBox="0 0 2048 2048" className='svg-container'>
 				<g className='svg-container'>
 					<path ref={outlineLogoRef} fill="transparent" opacity="1.000000" stroke="none"
@@ -12422,7 +12422,7 @@ M700.187134,229.252411
 	C700.628418,229.875153 700.383301,229.753250 700.187134,229.252411
 z"/>
 				</g>
-			</svg>
+			</svg> */}
 		</div>
 	)
 }
