@@ -2,7 +2,7 @@
   "name": "my-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jadenlund.github.io/Portfolio1/src/App.js",
+  "homepage": "https://jadenlund.github.io/Portfolio1/public",
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
     "@fortawesome/free-brands-svg-icons": "^6.2.1",
