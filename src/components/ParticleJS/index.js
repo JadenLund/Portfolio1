@@ -25,7 +25,7 @@ function ParticleJS() {
             options={{
                 background: {
                     color: {
-                        value: "#6159b7",
+                        value: "##6159B7",
                     },
                 },
                 fpsLimit: 120,
