@@ -80,3 +80,4 @@ THINGS TO DO
 - [ ] Change the tab image
 - [ ] Change the name of the tab
 - [ ] Add in my PUPPUR project to be actively useable
+- [ ] Create a colorblind mode
