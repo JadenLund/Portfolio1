@@ -1,5 +1,6 @@
 {
   "name": "my-portfolio",
+  "dev": "webpack-dev-server --env.mode development --config webpack.dev.js",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://jadenlund.github.io/Portfolio1",
