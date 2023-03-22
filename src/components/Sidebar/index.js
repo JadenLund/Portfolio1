@@ -31,7 +31,7 @@ export const Sidebar = () => {
                     <a target='_blank' className='linkedin' rel='noreferrer' href='https://www.linkedin.com/in/jaden-lund/'>
                         <FontAwesomeIcon icon={faLinkedin} color='#99738e' />
                     </a>
-                    <a target='_blank' className='github' rel='noreferrer' href='https://github.com/Specklex'>
+                    <a target='_blank' className='github' rel='noreferrer' href='https://github.com/JadenLund'>
                         <FontAwesomeIcon icon={faGithub} color='#99738e' />
                     </a>
                     <a target='_blank' className='medium' rel='noreferrer' href='https://medium.com/@lundjaden'>
